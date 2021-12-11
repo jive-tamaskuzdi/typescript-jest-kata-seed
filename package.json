@@ -1,0 +1,28 @@
+{
+  "name": "typescript-jest-kata-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc src/kata.ts",
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jive-tamaskuzdi/typescript-jest-kata-seed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jive-tamaskuzdi/typescript-jest-kata-seed/issues"
+  },
+  "homepage": "https://github.com/jive-tamaskuzdi/typescript-jest-kata-seed#readme",
+  "dependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}
